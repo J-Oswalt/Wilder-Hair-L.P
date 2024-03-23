@@ -5,63 +5,47 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Wilder Hair Company</title>
     <link rel="stylesheet" href="styles.css">
-    <script>
+    <!-- <script>
         function displayCard() {
-        var card = document.getElementById("section-a");
+        var card = document.getElementsByClassName("card");
         var title = document.getElementById("LP");
         var button = document.getElementById("btn");
         card.style.display = "grid";
         title.style.display = "none";
         button.style.display = "none";
     }
-    </script>
+    </script> -->
 </head>
 <body>
-    <h1 id="LP">
+    <h1 class="hide" id="LP">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel, laborum dolorum accusantium id ipsam ipsa sed amet laboriosam. Harum, maxime.
     </h1>
-    <button onclick="displayCard()" id="btn" >Schedule Now</button>
-    <section class="card" id="section-a" style="display: none;">
-        <div>
-            <a href="#">
-                <img src="./images/BlankCard.jpg" alt="Employee Placecard">
+    <button onclick="window.location.href='#staff';" id="btn" >Schedule Now</button>
+    
+    <div id="staff">
+        <section class="card" id="section-a">
+            <div>
+            <a href="https://www.instagram.com/brittany.wilderhairco" target="_blank">
+                <img src="./images/Em1.jpg" alt="Brittney">
             </a>
         </div>
         <div>
-            <a href="#">
-                <img src="./images/BlankCard.jpg" alt="Employee Placecard">
+            <a href="https://www.instagram.com/andrealynn.wilderhairco" target="_blank">
+                <img src="./images/Em2.jpg" alt="Andrea">
             </a>
         </div>
         <div>
-            <a href="#">
-                <img src="./images/BlankCard.jpg" alt="Employee Placecard">
+            <a href="https://www.instagram.com/ashley.wilderhairco" target="_blank">
+                <img src="./images/Em3.jpg" alt="Ashley">
             </a>
         </div>
         <div>
-            <a href="#">
-                <img src="./images/BlankCard.jpg" alt="Employee Placecard">
+            <a href="https://www.instagram.com/hairxcourt" target="_blank">
+                <img src="./images/Em4.jpg" alt="Courtney">
             </a>
         </div>
-        <div>
-            <a href="#">
-                <img src="./images/BlankCard.jpg" alt="Employee Placecard">
-            </a>
-        </div>
-        <div>
-            <a href="#">
-                <img src="./images/BlankCard.jpg" alt="Employee Placecard">
-            </a>
-        </div>
-        <div>
-            <a href="#">
-                <img src="./images/BlankCard.jpg" alt="Employee Placecard">
-            </a>
-        </div>
-        <div>
-            <a href="#">
-                <img src="./images/BlankCard.jpg" alt="Employee Placecard">
-            </a>
-        </div>
+    </section>
+    <section class="card" id="section-b">
         <div>
             <a href="#">
                 <img src="./images/BlankCard.jpg" alt="Employee Placecard">
@@ -83,5 +67,29 @@
             </a>
         </div>
     </section>
+    <section class="card" id="section-c">
+        <div>
+            <a href="#">
+                <img src="./images/BlankCard.jpg" alt="Employee Placecard">
+            </a>
+        </div>
+        <div>
+            <a href="#">
+                <img src="./images/BlankCard.jpg" alt="Employee Placecard">
+            </a>
+        </div>
+        <div>
+            <a href="#">
+                <img src="./images/BlankCard.jpg" alt="Employee Placecard">
+            </a>
+        </div>
+        <div>
+            <a href="#">
+                <img src="./images/BlankCard.jpg" alt="Employee Placecard">
+            </a>
+        </div>
+    </section>
+</div>
+       
 </body>
 </html>
